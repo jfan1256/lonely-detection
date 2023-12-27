@@ -1,0 +1,26 @@
+# Install python=3.10
+
+setuptools
+pandas
+statsmodels
+ray
+scikit-learn
+lightgbm
+matplotlib
+scipy
+optuna
+pyarrow
+fastparquet
+jupyterlab
+numpy
+
+
+# To run Tensorflow on GPU for windows, run these commands (chronologically):
+# conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+# pip install tensorflow==2.10
+
+# To install project packages (i.e., utils.system), run these commands (chronologically):
+# pip install setuptools
+# pip install -e .
+
+
