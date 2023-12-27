@@ -13,7 +13,8 @@ pyarrow
 fastparquet
 jupyterlab
 numpy
-
+transformers
+torch
 
 # To run Tensorflow on GPU for windows, run these commands (chronologically):
 # conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
